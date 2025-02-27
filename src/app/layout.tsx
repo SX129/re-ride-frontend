@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Re-Ride",
-  description: "Skip the wait with Re-Ride",
+  title: "Re•Ride",
+  description: "Skip the wait with Re•Ride",
 };
 
 export default function RootLayout({

@@ -1,3 +1,4 @@
+import Header from "@/shared/components/Header"
 
 export default function Home() {
   return (
@@ -10,8 +11,11 @@ export default function Home() {
         playsInline
         src="/videos/intro-video.mp4"
       />
+      <header>
+        <Header />
+      </header>
       <main className="content">
-        <h1>RE-RIDE</h1>
+        <h1>RE•RIDE</h1>
         <p>SKIP THE WAIT</p>
       </main>
     </div>
