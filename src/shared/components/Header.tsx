@@ -1,11 +1,20 @@
+"use client"
+
 import Link from "next/link";
 import React from "react";
 
+
 const Header = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="header">
       <nav>
-        <Link href="/" className="link-style">RE•RIDE</Link>
+        <a className="link-style" onClick={scrollToTop} style={{cursor:"pointer"}}>
+          RE•RIDE
+        </a>
         <Link href="https://www.google.com/" className="link-style">
           DRIVE
         </Link>
