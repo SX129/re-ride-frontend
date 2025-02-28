@@ -1,4 +1,5 @@
 import About from "@/shared/components/About";
+import Footer from "@/shared/components/Footer";
 import Header from "@/shared/components/Header";
 
 export default function Home() {
@@ -24,6 +25,9 @@ export default function Home() {
       <main className="about-section">
         <About />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

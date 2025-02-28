@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import React from "react";
@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div className="header">
+    <div className="header-section">
       <nav>
         <a className="link-style" onClick={scrollToTop} style={{cursor:"pointer"}}>
           RE•RIDE
