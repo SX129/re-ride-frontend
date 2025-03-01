@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import React from "react";
 
 const Header = () => {
@@ -8,10 +8,16 @@ const Header = () => {
         <Link href="/" className="link-style">
           RE•RIDE
         </Link>
-        <Link href="/info/drive" className="link-style">
+        {/* <Link href="/info/drive" className="link-style">
           DRIVE
         </Link>
         <Link href="/info/ride" className="link-style">
+          RIDE
+        </Link> */}
+        <Link href="/" className="link-style">
+          DRIVE
+        </Link>
+        <Link href="/" className="link-style">
           RIDE
         </Link>
       </nav>

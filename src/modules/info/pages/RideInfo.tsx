@@ -5,7 +5,7 @@ import React from "react";
 const RideInfo = () => {
   return (
     <>
-      <div className="bg-black min-h-screen">
+      <div className="bg-white min-h-screen">
         <header className="">
           <Header />
         </header>
