@@ -23,10 +23,10 @@ const Header = () => {
       </nav>
       <nav></nav>
       <nav>
-        <Link href="https://www.google.com/" className="link-style">
+        <Link href="/login" className="link-style">
           LOG IN
         </Link>
-        <Link href="https://www.google.com/" className="link-style">
+        <Link href="/signup" className="link-style">
           SIGN UP
         </Link>
       </nav>
