@@ -29,7 +29,13 @@ export function SignupForm({
             <div className="flex flex-col gap-6">
               <div className="grid gap-3">
                 <Label htmlFor="name">Name</Label>
-                <Input id="name" type="text" placeholder="Name" required />
+                <Input
+                  id="name"
+                  type="text"
+                  placeholder="Name"
+                  className="placeholder:text-neutral-700"
+                  required
+                />
               </div>
 
               <div className="grid gap-3">
@@ -38,6 +44,7 @@ export function SignupForm({
                   id="email"
                   type="email"
                   placeholder="email@example.com"
+                  className="placeholder:text-neutral-700"
                   required
                 />
               </div>
@@ -45,7 +52,13 @@ export function SignupForm({
                 <div className="flex items-center">
                   <Label htmlFor="password">Password</Label>
                 </div>
-                <Input id="password" type="password" placeholder="Password" required />
+                <Input
+                  id="password"
+                  type="password"
+                  placeholder="Password"
+                  className="placeholder:text-neutral-700"
+                  required
+                />
               </div>
               <div className="flex flex-col gap-3">
                 <Button type="submit" className="w-full">
