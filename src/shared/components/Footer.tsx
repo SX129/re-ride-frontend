@@ -10,21 +10,21 @@ const Footer = () => {
       <div className="footer-content">
         <Link
           href="mailto:nguyenhenry682@gmail.com"
-          className="flex items-center gap-2 link-style"
+          className="flex items-center gap-1 link-style"
         >
-          <LuMail size={25}/>
+          <LuMail size={23}/>
           nguyenhenry682@gmail.com
         </Link>
         <Link
           href="https://www.linkedin.com/in/henry-nguyen682/"
-          className="flex items-center gap-1 link-style"
+          className="flex items-center link-style"
         >
           <LiaLinkedin size={30}/>
           LinkedIn
         </Link>
         <Link
           href="https://github.com/henry-nguyen682"
-          className="flex items-center gap-1 link-style"
+          className="flex items-center link-style"
         >
           <LiaGithub size={30}/>
           GitHub
