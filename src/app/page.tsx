@@ -1,4 +1,3 @@
-import About from "@/shared/components/About";
 import Footer from "@/shared/components/Footer";
 import Header from "@/shared/components/Header";
 
@@ -17,17 +16,14 @@ export default function Home() {
         <header>
           <Header />
         </header>
-        <section className="landing-content">
+        <main className="landing-content">
           <h1>RE•RIDE</h1>
-          <p>SKIP THE WAIT</p>
-        </section>
+          <p >SKIP THE WAIT</p>
+        </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
-      <main className="about-section">
-        <About />
-      </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   );
 }

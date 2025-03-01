@@ -24,6 +24,7 @@ body {
 }
 
 /* LANDING PAGE */
+
 .landing-section {
   position: relative;
   width: 100%;
@@ -32,7 +33,7 @@ body {
 }
 
 .background-video {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -42,11 +43,7 @@ body {
 }
 
 .landing-content {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  position: relative;
   z-index: 1;
   color: white;
   display: flex;
@@ -55,6 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  text-align: center;
 }
 
 .landing-content h1 {
@@ -68,74 +66,51 @@ body {
   font-weight: 500;
 }
 
-.about-section {
-  position: relative;
-  z-index: 2;
-  height: 200vh;
-  background-color: #111111;
-  color: white;
+/* HEADER */
+.footer-section {
   display: flex;
+  color: white;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
+  position: fixed;
+  margin-bottom: 2rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-.about-content {
-  width: 100%;
-  height: 100%;
+.footer-content{
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 15rem ;
-  gap: 20rem;
+  gap: 3rem;
 }
 
 /* HEADER */
+
 .header-section {
   display: flex;
   color: white;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   position: fixed;
   margin-top: 2rem;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 3;
+  z-index: 2;
   font-size: 1rem;
   font-weight: 500;
-  margin-left: 15rem;
-  margin-right: 15rem;
 }
 
 .header-section nav{
   display: flex;
-  gap: 8rem;
-  position: sticky;
-}
-
-/* FOOTER */
-.footer-section {
-  background-color: #111111;
-  color: #ede8e4;
-  display: flex;
-  font-size: 1rem;
-  font-weight: 500;
-  z-index: 3;
-  position: relative;
-  justify-content: space-between;
-}
-
-.footer-content{
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-  align-items: center;
-  margin-bottom: 2rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  gap: 6rem;
 }
 
 /* LINKS */
+
 .link-style {
   position: relative;
 }
