@@ -47,6 +47,102 @@
   --foreground: #171717;
 }
 
+/* Media Queries */
+@media (min-width: 1025px) {
+  /* FOOTER */
+  .footer-section {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1rem;
+  }
+
+  .footer-content {
+    display: flex;
+    gap: 3rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* FOOTER */
+  .footer-section {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1rem;
+  }
+
+  .footer-content {
+    display: flex;
+    gap: 1rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 768px) {
+  /* FOOTER */
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1rem;
+  }
+
+  .footer-content {
+    display: flex;
+    gap: 2rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 480px) {
+  /* FOOTER */
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 0.75rem;
+  }
+
+  .footer-content {
+    display: flex;
+    gap: 0.75rem;
+    font-weight: 400;
+  }
+}
+
 /* LANDING PAGE */
 .landing-section {
   position: relative;
@@ -87,27 +183,6 @@
 .landing-content p {
   font-size: 1rem;
   font-weight: 500;
-}
-
-/* FOOTER */
-.footer-section {
-  display: flex;
-  color: white;
-  justify-content: space-evenly;
-  align-items: center;
-  position: fixed;
-  margin-bottom: 2rem;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  font-size: 1rem;
-}
-
-.footer-content {
-  display: flex;
-  gap: 3rem;
-  font-weight: 400;
 }
 
 /* HEADER */
