@@ -49,6 +49,27 @@
 
 /* Media Queries */
 @media (min-width: 1025px) {
+  /* HEADER */
+  .header-section {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    margin-top: 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .header-section nav {
+    display: flex;
+    gap: 6rem;
+  }
+
   /* FOOTER */
   .footer-section {
     display: flex;
@@ -72,6 +93,27 @@
 }
 
 @media (max-width: 1024px) {
+  /* HEADER */
+  .header-section {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    margin-top: 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .header-section nav {
+    display: flex;
+    gap: 6rem;
+  }
+
   /* FOOTER */
   .footer-section {
     display: flex;
@@ -95,6 +137,27 @@
 }
 
 @media (max-width: 768px) {
+  /* HEADER */
+  .header-section {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    margin-top: 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .header-section nav {
+    display: flex;
+    gap: 3rem;
+  }
+
   /* FOOTER */
   .footer-section {
     display: flex;
@@ -120,6 +183,24 @@
 }
 
 @media (max-width: 480px) {
+  /* HEADER */
+  .header-section {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    align-items: center;
+    position: fixed;
+    margin-top: 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
   /* FOOTER */
   .footer-section {
     display: flex;
@@ -183,27 +264,6 @@
 .landing-content p {
   font-size: 1rem;
   font-weight: 500;
-}
-
-/* HEADER */
-.header-section {
-  display: flex;
-  color: white;
-  justify-content: space-evenly;
-  align-items: center;
-  position: fixed;
-  margin-top: 2rem;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.header-section nav {
-  display: flex;
-  gap: 6rem;
 }
 
 /* LINKS */
